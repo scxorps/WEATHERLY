@@ -1,0 +1,2 @@
+C:/developement/flutter-apps/WEATHERLY/android/app/.cxx/Debug/4m6a735r/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/developement/flutter-apps/WEATHERLY/android/app/.cxx/Debug/4m6a735r/arm64-v8a/CMakeFiles/rebuild_cache.dir
