@@ -24,3 +24,16 @@ class UpdateWeather extends WeatherBlocEvent {
   @override
   List<Object> get props => [position];
 }
+
+class FetchWeatherByCity extends WeatherBlocEvent {
+  final String cityName;
+
+  const FetchWeatherByCity(this.cityName);
+
+  @override  
+  List<Object> get props => [cityName];
+}
+
+class ResetWeatherBloc extends WeatherBlocEvent {
+  const ResetWeatherBloc();
+}

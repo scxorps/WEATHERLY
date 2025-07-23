@@ -18,4 +18,20 @@ class WeatherBlocSuccess extends WeatherBlocState {
   List<Object> get props => [weather];
 }
 
-class WeatherBlocFailure extends WeatherBlocState {}
+class WeatherBlocFailure extends WeatherBlocState {
+  final String message;
+
+  const WeatherBlocFailure({this.message = 'Une erreur est survenue'});
+
+  @override
+  List<Object> get props => [message];
+}
+
+class WeatherBlocCityNotFound extends WeatherBlocState {
+  final String cityName;
+
+  const WeatherBlocCityNotFound(this.cityName);
+
+  @override
+  List<Object> get props => [cityName];
+}
